@@ -13,18 +13,6 @@ const list = [
     lastname: 'Davidds',
     year: 1990,
   },
-  {
-    id: 'c',
-    firstname: 'Robin',
-    lastname: 'Davidds',
-    year: 1988,
-  },
-  {
-    id: 'd',
-    firstname: 'Dave',
-    lastname: 'Wieruch',
-    year: 1990,
-  },
 ];
 
 const ComplexList = () => (
