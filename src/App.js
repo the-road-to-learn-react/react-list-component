@@ -7,7 +7,8 @@ import ListWithAddItem from './components/ListWithAddItem';
 import ListWithUpdateItem from './components/ListWithUpdateItem';
 import ListWithRemoveItem from './components/ListWithRemoveItem';
 import NestedList from './components/NestedList';
-import ListWithoutKey from './components/ListWithoutKey';
+import { ListWithUnstableIndex,
+ListWithStableIndex } from './components/ListWithSort';
 import ListScrollToItem from './components/ListScrollToItem';
 import ListScrollToItemOutside from './components/ListScrollToItemOutside';
 
@@ -33,8 +34,11 @@ const App = () => (
     <h2>"List with remove Item"-Examples</h2>
     <ListWithRemoveItem />
 
-    <h2>"List without Key and thus Bug"-Example</h2>
-    <ListWithoutKey />
+    <h2>"List with unstable Key and thus Bug"-Example</h2>
+    <ListWithUnstableIndex />
+
+    <h2>"List with stable Key"-Example</h2>
+    <ListWithStableIndex />
 
     <h2>"List with nested List"-Example</h2>
     <NestedList />

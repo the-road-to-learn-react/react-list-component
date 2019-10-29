@@ -1,4 +1,4 @@
-import React, { createRef } from 'react';
+import React from 'react';
 
 const list = [
   {
@@ -29,7 +29,7 @@ const list = [
 
 const ListScrollToItem = () => {
   const refs = list.reduce((acc, value) => {
-    acc[value.id] = createRef();
+    acc[value.id] = React.createRef();
     return acc;
   }, {});
 

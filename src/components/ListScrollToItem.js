@@ -1,4 +1,4 @@
-import React, { createRef } from 'react';
+import React from 'react';
 
 const list = [
   {
@@ -30,7 +30,7 @@ const list = [
 const ListScrollToItem = () => (
   <ul>
     {list.map(item => {
-      const ref = createRef();
+      const ref = React.createRef();
 
       // Scroll Into View API: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
       const handleClick = () =>
