@@ -4,6 +4,9 @@
 
 Different list components implemented in React. [Read more about it](https://www.robinwieruch.de/react-list-components/).
 
+[![Edit react-list-component](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/the-road-to-learn-react/react-list-component/tree/master/?fontsize=14)
+
+
 ## Installation
 
 * `git clone git@github.com:the-road-to-learn-react/react-list-component.git`
